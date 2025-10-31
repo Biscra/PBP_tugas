@@ -7,9 +7,9 @@ let lahan = [
 
 // Data cuaca (object literal)
 let cuaca = {
-  suhu: 28,
-  kelembapan: 70,
-  kecepatanAngin: 10
+    suhu: 28,
+    kelembapan: 70,
+    kecepatanAngin: 10
 };
 
 let totalSubur = 0;
@@ -54,3 +54,4 @@ else {
     console.log(`Total petak yang ditanami: 0`);
     console.log("Cuaca tidak cocok untuk bercocok tanam.");
 }
+
