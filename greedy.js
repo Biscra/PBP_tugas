@@ -4,11 +4,11 @@ let jumlahUang = 2850;
 
 for (let i = 0; i < koin.length - 1; i++) {
     for (let j = i + 1; j < koin.length; j++) {
-      if (koin[i] < koin[j]) {
-          let temp = koin[i];
-          koin[i] = koin[j];
-          koin[j] = temp;
-      }
+        if (koin[i] < koin[j]) {
+            let temp = koin[i];
+            koin[i] = koin[j];
+            koin[j] = temp;
+        }
     }
 }
 
@@ -25,4 +25,6 @@ for (let i = 0; i < koin.length; i++) {
 console.log("Jumlah uang:", jumlahUang);
 console.log("Koin yang digunakan:", hasil);
 console.log("Total koin:", hasil.length);
+
+
 
