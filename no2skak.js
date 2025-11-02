@@ -17,11 +17,11 @@ let barisK = 0, kolomK = 0;
 for (let i = 0; i < papanCatur.length; i++) {
     for (let j = 0; j < papanCatur[i].length; j++) {
         if (papanCatur[i][j] === "R") {
-        barisR = i;
-        kolomR = j;
+            barisR = i;
+            kolomR = j;
         } else if (papanCatur[i][j] === "K") {
-        barisK = i;
-        kolomK = j;
+            barisK = i;
+            kolomK = j;
         }
     }
 }
@@ -39,4 +39,5 @@ if (barisR >= 0 && barisK >= 0 && kolomR >= 0 && kolomK >= 0) {
 
 //mengecek posisi
 console.log(`Posisi Benteng (R): baris ${barisR}, kolom ${kolomR}`);
+
 console.log(`Posisi Raja (K): baris ${barisK}, kolom ${kolomK}`);
