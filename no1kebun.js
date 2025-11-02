@@ -22,13 +22,13 @@ for (let i = 0; i < lahan.length; i++) {
     // Hitung jumlah petak subur di baris ini
     for (let j = 0; j < baris.length; j++) {
         if (baris[j] === "subur") {
-        jumlahSubur++;
+            jumlahSubur++;
         }
     }
     // Cek apakah kurang dari 50% subur
     if (jumlahSubur < baris.length / 2) {
         for (let j = 0; j < baris.length; j++) {
-        baris[j] = "kering";
+            baris[j] = "kering";
         }
     }
 }
@@ -37,7 +37,7 @@ for (let i = 0; i < lahan.length; i++) {
 for (let i = 0; i < lahan.length; i++) {
     for (let j = 0; j < lahan[i].length; j++) {
         if (lahan[i][j] === "subur") {
-        totalSubur++;
+            totalSubur++;
         }
     }
 }
@@ -54,4 +54,5 @@ else {
     console.log(`Total petak yang ditanami: 0`);
     console.log("Cuaca tidak cocok untuk bercocok tanam.");
 }
+
 
